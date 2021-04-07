@@ -1,3 +1,5 @@
+package digiOneBank
+
 class Pessoa {
     var nome:String = "Marcelo"
     var cpf:String = "123.456.789-10"

@@ -1,0 +1,4 @@
+package digiOneBank
+
+class Conta {
+}
