@@ -1,7 +1,7 @@
 package digiOneBank
 
-open class Pessoa(
-    open val nome: String,
-    open val cpf: String
-    //Essas propriedades precisam ser "open" para poderem ser sobrescritas.
+abstract class Pessoa(
+    val nome: String,
+    val cpf: String
+    // Agora sim, a nossa classe é abstrata.
 )
