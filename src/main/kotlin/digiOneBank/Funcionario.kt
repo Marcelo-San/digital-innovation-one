@@ -4,7 +4,8 @@ package digiOneBank
 abstract class Funcionario(
     nome: String,
     cpf: String,
-    val salario: Double
+    val salario: Double,
+    val cargo: String
 ) : Pessoa(nome, cpf) {
     protected abstract fun calculoAuxilio(): Double
     // Precisamos sempre dizer o tipo que vai ser retornado.
@@ -13,6 +14,7 @@ abstract class Funcionario(
         Nome: $nome
         CPF: $cpf
         Salario: $salario
+        Cargo: $cargo
         Auxilio: ${calculoAuxilio()}
     """.trimIndent()
 }
