@@ -13,8 +13,8 @@ abstract class Funcionario(
     override fun toString(): String = """
         Nome: $nome
         CPF: $cpf
-        Salario: $salario
+        Salário: R$ $salario
         Cargo: $cargo
-        Auxilio: ${calculoAuxilio()}
+        Auxílio: R$ ${calculoAuxilio()}
     """.trimIndent()
 }
